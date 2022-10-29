@@ -1,22 +1,22 @@
 function increaseBalance(x, y) {
-  x = x + y;
+  x += y;
   return x;
 }
 
 function decreaseBalance(x, y) {
   //добавлен параметр y
-  x = x - y;
+  x -= y;
   return x;
 }
 
 function divideBalanceByAccounts(x, y) {
-  x = x / y;
+  x /= y;
   return x;
   console.log("x"); //возможно, лишняя строка кода, т. к. все результат выполнения всех функций выводится в консоль отдельно
 }
 
 function getRestAfterDivision(x, y) {
-  x = x % y;
+  x %= y;
   return x;
 }
 
